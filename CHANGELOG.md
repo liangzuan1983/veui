@@ -20,7 +20,7 @@
 * [^] 将 `icons` mixin 并入 `ui`,
 * [+] 支持配置 `ui` prop 项的元数据，以支持进一步校验及根据 `ui` 值配置图标。
 * [+] `Uploader` 组件的 `image` 模式增加 `scoped-slot`：`extra-operation`。
-* [^] `Uploader` 组件调整了新上传文件的插入顺序，按照最新上传的文件离上传按钮最近的原则，`file` 模式下最新添加的文件插入在最前面。
+* [^] `Uploader` 组件增加 prop `order`，配置新上传文件的插入顺序。
 
 ### 🐞 问题修复
 
